@@ -15,7 +15,10 @@ console.log(message3.length);
 [0,1,2,3]
 console.log(message3[2]);
 
+
 // sépare la chaine de caractère à la première occurence trouvé du paramètre passé à split
+// "voici l'information"
+// ["voici","l'information"]
 const resultSplit = message3.split(" ")
 console.log(resultSplit)
 console.log(typeof(resultSplit));
@@ -43,3 +46,12 @@ console.log(resultSlice);
 let resultSliceNegatif = message3.slice(-5)
 console.log(resultSliceNegatif);
 
+// Concatenation
+
+let concat1 = "hello" + "world"
+
+let valueConcat2 = "world"
+let concat2 = `hello ${valueConcat2}`
+// altgr + µ = ``
+
+let cocnat3 = "hello".concat(" world")
