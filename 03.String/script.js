@@ -38,7 +38,7 @@ console.log(resultIncludes);
 
 // slice : découper une chaine de caractère 
 
-// slice(position de départ , nombre de char à prendre)
+// slice(position de départ , position de fin)
 let resultSlice = message3.slice(0,5)
 console.log(resultSlice);
 
@@ -54,4 +54,4 @@ let valueConcat2 = "world"
 let concat2 = `hello ${valueConcat2}`
 // altgr + µ = ``
 
-let cocnat3 = "hello".concat(" world")
+let concat3 = "hello".concat(" world")
