@@ -128,3 +128,15 @@ let value = Infinity
 console.log("infinity")
 console.log(value  === Infinity)
 console.log(Infinity * 5)
+
+
+// Concatenation 
+
+let message = "hello "
+
+console.log(`voici le message : ${message}`);
+console.log("voici le message : " + message);
+console.log("voici le message : " , message);
+console.log("voici le message : " , message);
+
+
