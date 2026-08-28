@@ -1,39 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css" >
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo DOM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- <div id="app">texte de la balise avec id</div>
-    <div class="myClass">texte de la balise avec class1</div>
-    <div class="myClass">texte de la balise avec class2</div>
+  <!-- Sélection par id et par classe -->
+  <div id="app">texte de la balise avec id</div>
+  <div class="myClass">texte de la balise avec class 1</div>
+  <div class="myClass">texte de la balise avec class 2</div>
 
+  <!-- Sélecteurs enfants -->
+  <div class="parent">
+    <p class="text1">text 1</p>
+    <p class="text2">text 2</p>
+  </div>
 
-    <div class="parent">
-        <p class="text1">text 1</p>
-        <p class="text2">text 1</p>
-    </div>
+  <div class="parent-list">
+    <p class="child1">enfant 1</p>
+    <p class="child2">enfant 2</p>
+    <p class="child3">enfant 3</p>
+    <p class="child4">enfant 4</p>
+  </div>
 
-    <div class="parent-list">
-        <p class="child1">enfant1</p>
-        <p class="child2">enfant2</p>
-        <p class="child3">enfant3</p>
-        <p class="child4">enfant4</p>
-    </div> -->
+  <!-- Modification / navigation enfants -->
+  <div id="main">
+    <p id="paragraphe"></p>
+    <p>p2</p>
+    <p>p3</p>
+  </div>
 
-    <div id="main">
-        <p id="paragraphe"></p>
-        <p>p2</p>
-        <p>p3</p>
-    </div>
+  <!-- Inputs et événements -->
+  <input type="text" id="input" value="contenu">
+  <button id="btn">Log</button>
+  <button id="desactive">Désactiver</button>
 
-    <input type="text" id="input" value="contenu">
-    <button id="btn">Log </button>
-
-    <p id="content-input"></p>
+  <p id="content-input"></p>
 </body>
 </html>
