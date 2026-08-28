@@ -109,11 +109,11 @@ console.log("myObject : " + typeof(myObject) )
 
 let myDate = new Date()
 
-console.log("Type de Date");
+console.log("Type de Date")
 
-console.log(typeof(myDate)); // object
-console.log(myDate.constructor.name); // Date
-console.log(myDate instanceof Date); // true
+console.log(typeof(myDate)) // object
+console.log(myDate.constructor.name) // Date
+console.log(myDate instanceof Date) // true
 
 
 // NAN
@@ -126,7 +126,7 @@ console.log(isNaN(undefined + 1 )) // true
 
 let value = Infinity
 console.log("infinity")
-console.log(value  === Infinity);
+console.log(value  === Infinity)
 console.log(Infinity * 5)
 
 
