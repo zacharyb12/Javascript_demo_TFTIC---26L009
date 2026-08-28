@@ -128,6 +128,3 @@ let value = Infinity
 console.log("infinity")
 console.log(value  === Infinity)
 console.log(Infinity * 5)
-
-
-// modification
