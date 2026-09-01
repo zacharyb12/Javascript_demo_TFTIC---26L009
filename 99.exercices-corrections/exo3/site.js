@@ -3,6 +3,12 @@ const paragraphe = document.querySelector("body > p");
 const bouton1 = document.getElementById("bouton1");
 const bouton2 = document.getElementById("bouton2");
 const liste = document.getElementById("liste");
+
+if(!titre) //application du thruty/falsy
+    throw Error("Titre absent");
+
+console.log(null ?? undefined);
+
 const suffixe = ' (Modifié)';
 
 titre.innerText = titre.innerText + suffixe;
