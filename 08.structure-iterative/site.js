@@ -6,7 +6,7 @@ while (compteur < 10) {
     if (compteur == 8) {
 
         compteur++;
-        // passe la suite des instructions pour l'itération en ours
+        // passe la suite des instructions pour l'itération en cours
         continue;
     }
 

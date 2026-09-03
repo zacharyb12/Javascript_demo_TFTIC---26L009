@@ -27,7 +27,7 @@ noms.push("Thibaut", "Romain", "Lionel");
 
 console.log(noms);
 // splice (index de départ, nombre d'élément à retirer, ... liste d'élément à rajouter à cet emplacement)
-console.log(noms.splice(1, 1, "Elodie", "Roccio", "Julien", "Benjamin"))
+console.log(noms.splice(1, 1, "Elodie", "Rocio", "Julien", "Benjamin"))
 console.log(noms);
 
 const textNoms = noms.join(", ");
